@@ -1,2 +1,2 @@
 # Irorun
-https://Dalonna456.github.io/irorun/
+https://dalonna456.github.io/Irorun/
