@@ -1,0 +1,178 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+input::ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+ul li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: 400;
+}
+
+/* work-sans-regular - latin */
+@font-face {
+   font-family: "Work Sans";
+   font-style: normal;
+   font-weight: 400;
+   src: local(""), url("../fonts/work-sans-v13-latin-regular.woff2") format("woff2"),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/work-sans-v13-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+   font-family: "Work Sans";
+   padding: 50px;
+}
+.container {
+   max-width: 1420px;
+   margin: 0 auto;
+}
+
+/* header styles start*/
+
+.header {
+}
+.container__header {
+   max-width: 1420px;
+   margin: 0 auto;
+}
+.header__nav {
+   display: flex;
+   width: 50%;
+}
+
+.header__list {
+   display: flex;
+   flex-direction: row;
+
+   font-size: 15px;
+   font-style: normal;
+   line-height: 10px;
+   font-weight: 400;
+   color: #222222;
+   margin: 0 auto;
+}
+
+.header__list img {
+   margin: 45px 165px 0px 100px;
+}
+
+li {
+   padding: 0px 40px 0px 0px;
+}
+
+li:first-child {
+   color: #0082f3;
+}
+.header__item {
+   display: flex;
+   flex-direction: row;
+
+   justify-content: space-between;
+   margin-top: 56px;
+}
+/* header styles ends*/
+
+/* intro styles start*/
+
+.intro__row {
+   display: flex;
+   padding-left: 162px;
+}
+.intro__info {
+   display: flex;
+   flex-direction: column;
+}
+
+.intro__tittle {
+   font-size: 55px;
+   line-height: 60px;
+   padding: 167px 303px 32px 0px;
+}
+
+.intro__text {
+   font-size: 24px;
+   line-height: 35px;
+}
+
+.intro__icons {
+   display: inline;
+   margin: 30px 8px 184px 0px;
+}
+.intro__item {
+}
+.intro__image {
+   padding-right: 144px;
+}
+
+/* intro styles ends*/
